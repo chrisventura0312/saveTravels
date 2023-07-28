@@ -91,6 +91,31 @@ button.btn-block {
     width: 100%;
 }
 
+
+/* Add custom styles for the expense detail page */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+.card-footer a {
+    margin-right: 10px;
+}
+
 /* Footer styles */
 footer {
     text-align: center;

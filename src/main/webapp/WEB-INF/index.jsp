@@ -27,7 +27,7 @@
                 <tbody>
                     <c:forEach items="${expenses}" var="expense">
                         <tr>
-                            <td><c:out value="${expense.name}" /></td>
+                             <td><a href="/expenses/${expense.id}">${expense.name}</a></td>
                             <td><c:out value="${expense.vendor}" /></td>
                             <td><fmt:formatNumber value="${expense.amount}" type="currency" currencyCode="USD" /></td>
                             <td>
