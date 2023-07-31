@@ -30,8 +30,8 @@ public class Expense {
     @Size(min = 1, max = 30, message="Vendor must be between 1 and 30 characters")
     private String vendor;
 
-    @NotNull
-    @Min(value = 1, message="Must be at least $1")
+    @NotNull(message="Must be at least $0.01")
+    @Min(value = 1, message="Must be at least $0.01")
     private BigDecimal amount;
 
     @NotNull
